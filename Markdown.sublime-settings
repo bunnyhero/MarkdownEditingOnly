@@ -6,7 +6,9 @@
 		"txt"
 	],
 
-	"color_scheme": "Packages/MarkdownEditingOnly/MarkdownEditor.tmTheme",
+	//	Optionally enable one of these themes. These add extra syntax highlighting for Markdown structures.
+
+	//"color_scheme": "Packages/MarkdownEditingOnly/MarkdownEditor.tmTheme",
 	// "color_scheme": "Packages/MarkdownEditingOnly/MarkdownEditor-Dark.tmTheme",
 	// "color_scheme": "Packages/MarkdownEditingOnly/MarkdownEditor-Yellow.tmTheme",
 
@@ -15,31 +17,8 @@
 	// be more mature focus improvements in the future (maybe similar to iA Writer).
 	// "color_scheme": "Packages/MarkdownEditingOnly/MarkdownEditor-Focus.tmTheme",
 
-	"tab_size": 4,
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": false,
-	"auto_match_enabled": true,
-
 	// Layout
-	"draw_centered": true,
 	"word_wrap": true,
-	"wrap_width": 80,
-	"rulers": [],
-
-	// Line
-	"line_numbers": false,
-	"highlight_line": false,
-	"line_padding_top": 2,
-	"line_padding_bottom": 2,
-
-	// Caret
-	"caret_style": "wide",   // "wide" is deprecated starting with ST Build 3057.
-	                         // In the future, this line will be replaced with:
-	                         //     "caret_style": "solid",
-	                         //     "caret_extra_width": 1,
-	// These will work only in ST Build 3057 and later.
-	"caret_extra_top": 3,
-	"caret_extra_bottom": 3,
 
 	// add trailing #'s to headlines
 	"mde.match_header_hashes": false,

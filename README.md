@@ -194,14 +194,14 @@ MarkdownEditingOnly is released under the [MIT License][opensource].
 [OpenUrl]:                     https://github.com/noahcoad/open-url
 [brettterpstra]: http://brettterpstra.com
 [geekabouttown]: http://geekabouttown.com/posts/sublime-text-2-markdown-footnote-goodness
-[github]: https://raw.github.com/SublimeText-Markdown/MarkdownEditingOnly/master/screenshots/light.png
-[github 2]: https://raw.github.com/SublimeText-Markdown/MarkdownEditingOnly/master/screenshots/dark.png
-[github 3]: https://raw.github.com/SublimeText-Markdown/MarkdownEditingOnly/master/screenshots/yellow.png
+[github]: https://raw.github.com/bunnyhero/MarkdownEditingOnly/master/screenshots/light.png
+[github 2]: https://raw.github.com/bunnyhero/MarkdownEditingOnly/master/screenshots/dark.png
+[github 3]: https://raw.github.com/bunnyhero/MarkdownEditingOnly/master/screenshots/yellow.png
 [github 4]: https://github.com/jngeist
-[github 5]: https://raw.github.com/SublimeText-Markdown/MarkdownEditingOnly/master/screenshots/underscore-in-words.png
-[github 6]: https://raw.github.com/SublimeText-Markdown/MarkdownEditingOnly/master/screenshots/fenced-code-block.png
-[github 7]: https://raw.github.com/SublimeText-Markdown/MarkdownEditingOnly/master/screenshots/keyboard-shortcut.png
-[github 8]: https://raw.github.com/SublimeText-Markdown/MarkdownEditingOnly/master/screenshots/strikethrough.png
+[github 5]: https://raw.github.com/bunnyhero/MarkdownEditingOnly/master/screenshots/underscore-in-words.png
+[github 6]: https://raw.github.com/bunnyhero/MarkdownEditingOnly/master/screenshots/fenced-code-block.png
+[github 7]: https://raw.github.com/bunnyhero/MarkdownEditingOnly/master/screenshots/keyboard-shortcut.png
+[github 8]: https://raw.github.com/bunnyhero/MarkdownEditingOnly/master/screenshots/strikethrough.png
 [github 9]: https://github.com/maliayas
 [opensource]: http://www.opensource.org/licenses/MIT
 [wbond]: http://wbond.net/sublime_packages/package_control

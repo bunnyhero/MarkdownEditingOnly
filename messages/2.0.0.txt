@@ -1,21 +1,21 @@
-# MarkdownEditing 2.0.0 Changelog
+# MarkdownEditingOnly 2.0.0 Changelog
 
-This is a major release for MarkdownEditing. In this document, you will find information about the update.
+This is a major release for MarkdownEditingOnly. In this document, you will find information about the update.
 
 This release adds a syntax file for __GitHub flavored Markdown__ and makes it default for Markdown extensions (md, txt).
 
-Sublime text has a native tiny package for Markdown. However, when MarkdownEditing is enabled, native package causes some conflicts. For this reason, MarkdownEditing will automatically disable it. Since it doesn't bring anything new over MarkdownEditing, this is not a loss. But remember, when you disable/remove MarkdownEditing, you have to reenable the native one manually (if you want).
+Sublime text has a native tiny package for Markdown. However, when MarkdownEditingOnly is enabled, native package causes some conflicts. For this reason, MarkdownEditingOnly will automatically disable it. Since it doesn't bring anything new over MarkdownEditingOnly, this is not a loss. But remember, when you disable/remove MarkdownEditingOnly, you have to reenable the native one manually (if you want).
 
-It's suggested you take a look at `Packages\MarkdownEditing\README.md` file.
+It's suggested you take a look at `Packages\MarkdownEditingOnly\README.md` file.
 
-Feedback is always welcome. MarkdownEditing is hosted on https://github.com/ttscoff/MarkdownEditing/. What features would you like to see in the next version?
+Feedback is always welcome. MarkdownEditingOnly is hosted on https://github.com/ttscoff/MarkdownEditingOnly/. What features would you like to see in the next version?
 
 ## Notable Features
 
 * Dark and yellow themes added. In order to enable them, put one of these lines in `Packages\User\Markdown.sublime-settings`:
-    `"color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme"`
-    `"color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Yellow.tmTheme"`
-* Option to keep current line centered as writing goes on. Check `Packages\MarkdownEditing\Markdown.sublime-settings` file to see how to enable it.
+    `"color_scheme": "Packages/MarkdownEditingOnly/MarkdownEditor-Dark.tmTheme"`
+    `"color_scheme": "Packages/MarkdownEditingOnly/MarkdownEditor-Yellow.tmTheme"`
+* Option to keep current line centered as writing goes on. Check `Packages\MarkdownEditingOnly\Markdown.sublime-settings` file to see how to enable it.
 * Better highlighting for blockquotes.
 * Improved symbol list (Ctrl+R).
     - More readable indentation

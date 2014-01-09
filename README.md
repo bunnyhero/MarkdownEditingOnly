@@ -1,14 +1,14 @@
-# MarkdownEditing
+# MarkdownEditingOnly
 
 Markdown plugin for Sublime Text. Provides a decent Markdown color scheme (light and dark) with more __robust__ syntax highlighting and useful Markdown editing features for Sublime Text. 3 flavors are supported: Standard Markdown, __GitHub flavored Markdown__, MultiMarkdown.
 
-![MarkdownEditing][github]
+![MarkdownEditingOnly][github]
 
 [Dark][github 2] and [yellow][github 3] theme available.
 
-> Your kind donations will help [me](https://github.com/maliayas) pause my daily job and put more serious effort into the development of this plugin for the next 2 milestones ([2.0.5](https://github.com/SublimeText-Markdown/MarkdownEditing/issues?milestone=1&state=open) and [2.2.0](https://github.com/SublimeText-Markdown/MarkdownEditing/issues?milestone=2&state=open)). When they are completed, donation button will be removed. Thanks.
+> Your kind donations will help [me](https://github.com/maliayas) pause my daily job and put more serious effort into the development of this plugin for the next 2 milestones ([2.0.5](https://github.com/SublimeText-Markdown/MarkdownEditingOnly/issues?milestone=1&state=open) and [2.2.0](https://github.com/SublimeText-Markdown/MarkdownEditingOnly/issues?milestone=2&state=open)). When they are completed, donation button will be removed. Thanks.
 > 
-> <a href="https://flattr.com/submit/auto?user_id=maliayas&url=https%3A%2F%2Fgithub.com%2FSublimeText-Markdown%2FMarkdownEditing" target="_blank"><img src="https://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>
+> <a href="https://flattr.com/submit/auto?user_id=maliayas&url=https%3A%2F%2Fgithub.com%2FSublimeText-Markdown%2FMarkdownEditingOnly" target="_blank"><img src="https://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>
 
 ## Overview
 
@@ -86,7 +86,7 @@ Scans document for referenced link usages (`[some link][some_ref]` and `[some li
 
 ## Installation
 
-_Note_: Sublime text has a native tiny package for Markdown. However, when MarkdownEditing is enabled, native package causes some conflicts. For this reason, MarkdownEditing will automatically disable it. Since it doesn't bring anything new over MarkdownEditing, this is not a loss. But remember, when you disable MarkdownEditing, you have to reenable the native one manually (if you want).
+_Note_: Sublime text has a native tiny package for Markdown. However, when MarkdownEditingOnly is enabled, native package causes some conflicts. For this reason, MarkdownEditingOnly will automatically disable it. Since it doesn't bring anything new over MarkdownEditingOnly, this is not a loss. But remember, when you disable MarkdownEditingOnly, you have to reenable the native one manually (if you want).
 
 If you are using Sublime Text 2, you have to disable the native package _manually_. To do that, add `Markdown` to your `ignored_packages` list in ST user settings:
 
@@ -99,15 +99,15 @@ The preferred method of installation is via [Sublime Package Control][wbond].
 1. [Install Sublime Package Control][wbond 2]
 2. From inside Sublime Text, open Package Control's Command Pallet: <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>P</kbd> (Windows, Linux) or <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>P</kbd> on Mac.
 3. Type `install package` and hit Return. A list of available packages will be displayed.
-4. Type `MarkdownEditing` and hit Return. The package will be downloaded to the appropriate directory.
+4. Type `MarkdownEditingOnly` and hit Return. The package will be downloaded to the appropriate directory.
 5. Restart Sublime Text to complete installation. Open a Markdown file and this custom theme. The features listed above should now be available.
 
 ### Manual Installation
 
-1. Download or clone this repository to a directory `MarkdownEditing` in the Sublime Text Packages directory for your platform:
-    * Mac: `git clone https://github.com/SublimeText-Markdown/MarkdownEditing.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/MarkdownEditing`
-    * Windows: `git clone https://github.com/SublimeText-Markdown/MarkdownEditing.git %APPDATA%\Sublime/ Text/ 2/\MarkdownEditing`
-    * Linux: `git clone https://github.com/SublimeText-Markdown/MarkdownEditing.git ~/.Sublime\ Text\ 2/Packages/MarkdownEditing`
+1. Download or clone this repository to a directory `MarkdownEditingOnly` in the Sublime Text Packages directory for your platform:
+    * Mac: `git clone https://github.com/SublimeText-Markdown/MarkdownEditingOnly.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/MarkdownEditingOnly`
+    * Windows: `git clone https://github.com/SublimeText-Markdown/MarkdownEditingOnly.git %APPDATA%\Sublime/ Text/ 2/\MarkdownEditingOnly`
+    * Linux: `git clone https://github.com/SublimeText-Markdown/MarkdownEditingOnly.git ~/.Sublime\ Text\ 2/Packages/MarkdownEditingOnly`
 2. Restart Sublime Text to complete installation. Open a Markdown file and this custom theme. The features listed above should now be available.
 
 ## Configuration
@@ -116,9 +116,9 @@ The plugin contains 3 different Markdown flavors: Standard Markdown, GitHub flav
 
 You may want to have a look at the default settings files. They are located at:
 
-    Packages/MarkdownEditing/Markdown.sublime-settings         [GitHub flavored Markdown]
-    Packages/MarkdownEditing/Markdown (Standard).sublime-settings
-    Packages/MarkdownEditing/MultiMarkdown.sublime-settings
+    Packages/MarkdownEditingOnly/Markdown.sublime-settings         [GitHub flavored Markdown]
+    Packages/MarkdownEditingOnly/Markdown (Standard).sublime-settings
+    Packages/MarkdownEditingOnly/MultiMarkdown.sublime-settings
 
 If you want to override any of the default settings, you can open the appropriate user settings file using the `Preferences > Package Settings > Markdown Editing` menu. Each flavor has a different settings file.
 
@@ -126,8 +126,8 @@ Bold and italic markers are configurable through ST shell variables. You can use
 
 In order to activate the dark or the yellow theme, put one of these lines to your user settings file of the flavor (`Packages/User/[flavor].sublime-settings`):
 
-    "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
-    "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Yellow.tmTheme",
+    "color_scheme": "Packages/MarkdownEditingOnly/MarkdownEditor-Dark.tmTheme",
+    "color_scheme": "Packages/MarkdownEditingOnly/MarkdownEditor-Yellow.tmTheme",
 
 If you want to go with your already existing theme, you can reenable it with the same method as above. Keep in mind that, that theme may not cover all the parts of the Markdown syntax that this plugin defines.
 
@@ -141,7 +141,7 @@ By default, when you install the plugin, files with these extensions will be ass
 
 * Sublime Text has a _Distraction Free_ mode which is great with Markdown writing. Key binding for it: <kbd>Shift</kbd> <kbd>F11</kbd> on Windows/Linux, <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>F</kbd> on Mac OS X.
 
-* If you install [FullScreenStatus][] plugin, MarkdownEditing will provide an extra functionality for Distraction Free mode. When you switch to Distraction Free mode, your current line will always be vertically centered as you edit. You can enable this functionality for normal mode, too, via settings.
+* If you install [FullScreenStatus][] plugin, MarkdownEditingOnly will provide an extra functionality for Distraction Free mode. When you switch to Distraction Free mode, your current line will always be vertically centered as you edit. You can enable this functionality for normal mode, too, via settings.
 
 * If you work with Markdown tables too often, you may want to have a look at another plugin named [TableEditor][]. It brings huge improvements for table editing. Several table formats are supported.
 
@@ -157,7 +157,7 @@ By default, when you install the plugin, files with these extensions will be ass
 
 * [Knockdown][]
 
-     Knockdown offers useful Markdown features and a custom Markdown theme. All of its unique features except its theme are ported to MarkdownEditing and some of them are actually improved further in MarkdownEditing.
+     Knockdown offers useful Markdown features and a custom Markdown theme. All of its unique features except its theme are ported to MarkdownEditingOnly and some of them are actually improved further in MarkdownEditingOnly.
 * [Sublime Markdown Extended][]
 * [SmartMarkdown][]
 
@@ -167,7 +167,7 @@ See `CONTRIBUTING.md` file.
 
 ## Credits
 
-MarkdownEditing was originally created by [Brett Terpstra][brettterpstra] and has become a community project with the goal of consolidating the best features from the varied collection of Markdown packages for Sublime Text. Current development is headed up by [Ali Ayas][github 9].
+MarkdownEditingOnly was originally created by [Brett Terpstra][brettterpstra] and has become a community project with the goal of consolidating the best features from the varied collection of Markdown packages for Sublime Text. Current development is headed up by [Ali Ayas][github 9].
 
 Related blog posts from Brett:
 * http://brettterpstra.com/2012/05/17/markdown-editing-for-sublime-text-2-humble-beginnings/
@@ -179,7 +179,7 @@ Footnote commands were submitted by [J. Nicholas Geist][github 4] and originated
 
 ## License
 
-MarkdownEditing is released under the [MIT License][opensource].
+MarkdownEditingOnly is released under the [MIT License][opensource].
 
 [TableEditor]:                 https://github.com/vkocubinsky/SublimeTableEditor
 [Knockdown]:                   https://github.com/aziz/knockdown/
@@ -189,14 +189,14 @@ MarkdownEditing is released under the [MIT License][opensource].
 [OpenUrl]:                     https://github.com/noahcoad/open-url
 [brettterpstra]: http://brettterpstra.com
 [geekabouttown]: http://geekabouttown.com/posts/sublime-text-2-markdown-footnote-goodness
-[github]: https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/light.png
-[github 2]: https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/dark.png
-[github 3]: https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/yellow.png
+[github]: https://raw.github.com/SublimeText-Markdown/MarkdownEditingOnly/master/screenshots/light.png
+[github 2]: https://raw.github.com/SublimeText-Markdown/MarkdownEditingOnly/master/screenshots/dark.png
+[github 3]: https://raw.github.com/SublimeText-Markdown/MarkdownEditingOnly/master/screenshots/yellow.png
 [github 4]: https://github.com/jngeist
-[github 5]: https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/underscore-in-words.png
-[github 6]: https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/fenced-code-block.png
-[github 7]: https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/keyboard-shortcut.png
-[github 8]: https://raw.github.com/SublimeText-Markdown/MarkdownEditing/master/screenshots/strikethrough.png
+[github 5]: https://raw.github.com/SublimeText-Markdown/MarkdownEditingOnly/master/screenshots/underscore-in-words.png
+[github 6]: https://raw.github.com/SublimeText-Markdown/MarkdownEditingOnly/master/screenshots/fenced-code-block.png
+[github 7]: https://raw.github.com/SublimeText-Markdown/MarkdownEditingOnly/master/screenshots/keyboard-shortcut.png
+[github 8]: https://raw.github.com/SublimeText-Markdown/MarkdownEditingOnly/master/screenshots/strikethrough.png
 [github 9]: https://github.com/maliayas
 [opensource]: http://www.opensource.org/licenses/MIT
 [wbond]: http://wbond.net/sublime_packages/package_control

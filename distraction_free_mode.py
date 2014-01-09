@@ -16,7 +16,7 @@ def view_is_markdown(view):
 
 class KeepCurrentLineCentered(sublime_plugin.EventListener):
     def on_modified(self, view):
-        # One of the MarkdownEditing syntax files must be in use.
+        # One of the MarkdownEditingOnly syntax files must be in use.
         if not view_is_markdown(view):
             return False
 

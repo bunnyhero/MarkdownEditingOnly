@@ -2,8 +2,8 @@ import sublime
 import sublime_plugin
 import re
 
-DEFINITION_KEY = 'MarkdownEditing-footnote-definitions'
-REFERENCE_KEY = 'MarkdownEditing-footnote-references'
+DEFINITION_KEY = 'MarkdownEditingOnly-footnote-definitions'
+REFERENCE_KEY = 'MarkdownEditingOnly-footnote-references'
 REFERENCE_REGEX = "\[\^([^\]]*)\]"
 DEFINITION_REGEX = "^ *\[\^([^\]]*)\]:"
 

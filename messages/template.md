@@ -1,6 +1,6 @@
-# MarkdownEditing {version} Changelog
+# MarkdownEditingOnly {version} Changelog
 
-Your _MarkdownEditing_ plugin is updated. Enjoy new version. For any type of feedback you can use [GitHub issues][issues].
+Your _MarkdownEditingOnly_ plugin is updated. Enjoy new version. For any type of feedback you can use [GitHub issues][issues].
 
 ## Bug Fixes
 
@@ -8,4 +8,4 @@ Your _MarkdownEditing_ plugin is updated. Enjoy new version. For any type of fee
 
 ## Changes
 
-[issues]: https://github.com/SublimeText-Markdown/MarkdownEditing/issues
+[issues]: https://github.com/SublimeText-Markdown/MarkdownEditingOnly/issues

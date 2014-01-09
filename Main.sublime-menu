@@ -17,13 +17,13 @@
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/MarkdownEditing/README.md"},
+                                "args": {"file": "${packages}/MarkdownEditingOnly/README.md"},
                                 "caption": "README"
                             },
                             { "caption": "-" },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/MarkdownEditing/Bold and Italic Markers.tmPreferences"},
+                                "args": {"file": "${packages}/MarkdownEditingOnly/Bold and Italic Markers.tmPreferences"},
                                 "caption": "Bold and Italic Settings – Default"
                             },
                             {
@@ -34,7 +34,7 @@
                             { "caption": "-" },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/MarkdownEditing/Markdown.sublime-settings"},
+                                "args": {"file": "${packages}/MarkdownEditingOnly/Markdown.sublime-settings"},
                                 "caption": "Markdown GFM Settings – Default"
                             },
                             {
@@ -45,7 +45,7 @@
                             { "caption": "-" },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/MarkdownEditing/Markdown (Standard).sublime-settings"},
+                                "args": {"file": "${packages}/MarkdownEditingOnly/Markdown (Standard).sublime-settings"},
                                 "caption": "Markdown (Standard) Settings – Default"
                             },
                             {
@@ -56,7 +56,7 @@
                             { "caption": "-" },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/MarkdownEditing/MultiMarkdown.sublime-settings"},
+                                "args": {"file": "${packages}/MarkdownEditingOnly/MultiMarkdown.sublime-settings"},
                                 "caption": "MultiMarkdown Settings – Default"
                             },
                             {

@@ -1,14 +1,19 @@
-# MarkdownEditingOnly
+# MarkdownEditing
 
 Markdown plugin for Sublime Text. Provides a decent Markdown color scheme (light and dark) with more __robust__ syntax highlighting and useful Markdown Editing Only features for Sublime Text. 3 flavors are supported: Standard Markdown, __GitHub flavored Markdown__, MultiMarkdown.
+
+> **MarkdownEditingOnly**
+
+> MarkdownEditingOnly is a fork that removes the opinionated editor settings overrides. Nothing like installing a plugin and having your word wrap settings, line numbering settings, caret style settings, etc., overridden unexpectedly! This fork leaves the options in, but disabled.
+
 
 ![MarkdownEditingOnly][github]
 
 [Dark][github 2] and [yellow][github 3] theme available.
 
-> Your kind donations will help [me](https://github.com/maliayas) pause my daily job and put more serious effort into the development of this plugin for the next 2 milestones ([2.0.5](https://github.com/SublimeText-Markdown/MarkdownEditingOnly/issues?milestone=1&state=open) and [2.2.0](https://github.com/SublimeText-Markdown/MarkdownEditingOnly/issues?milestone=2&state=open)). When they are completed, donation button will be removed. Thanks.
+> Your kind donations will help [me](https://github.com/maliayas) pause my daily job and put more serious effort into the development of this plugin for the next 2 milestones ([2.0.5](https://github.com/SublimeText-Markdown/MarkdownEditing/issues?milestone=1&state=open) and [2.2.0](https://github.com/SublimeText-Markdown/MarkdownEditing/issues?milestone=2&state=open)). When they are completed, donation button will be removed. Thanks.
 > 
-> <a href="https://flattr.com/submit/auto?user_id=maliayas&url=https%3A%2F%2Fgithub.com%2FSublimeText-Markdown%2FMarkdownEditingOnly" target="_blank"><img src="https://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>
+> <a href="https://flattr.com/submit/auto?user_id=maliayas&url=https%3A%2F%2Fgithub.com%2FSublimeText-Markdown%2FMarkdownEditing" target="_blank"><img src="https://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>
 
 ## Overview
 
